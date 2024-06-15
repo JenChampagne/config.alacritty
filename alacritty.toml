@@ -1,0 +1,25 @@
+[window]
+dynamic_title = true
+title = "Alacritty"
+startup_mode = "Maximized"
+
+[mouse]
+hide_when_typing = false
+
+[font]
+size = 18
+
+[font.bold]
+family = "Lilex Nerd Font"
+style = "Bold"
+
+[font.bold_italic]
+family = "Lilex Nerd Font"
+style = "Bold Italic"
+
+[font.italic]
+family = "Lilex Nerd Font"
+style = "Italic"
+
+[font.normal]
+family = "Lilex Nerd Font"
