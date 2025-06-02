@@ -1,3 +1,6 @@
 [submodule "alacritty"]
 	path = alacritty
 	url = git@github.com:alacritty/alacritty.git
+[submodule "alacritty-theme"]
+	path = alacritty-theme
+	url = https://github.com/alacritty/alacritty-theme
