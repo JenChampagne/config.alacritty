@@ -1,5 +1,8 @@
 #import = [ "~/.config/alacritty/alacritty-theme/themes/afterglow.toml" ]
 
+[env]
+TERM="xterm-256color"
+
 [window]
 dynamic_title = true
 title = "Alacritty"
@@ -8,8 +11,11 @@ startup_mode = "Maximized"
 [mouse]
 hide_when_typing = false
 
+[colors.primary]
+background = '#0a0a0a'
+
 [font]
-size = 18
+size = 15
 
 [font.bold]
 family = "Lilex Nerd Font"
@@ -25,3 +31,24 @@ style = "Italic"
 
 [font.normal]
 family = "Lilex Nerd Font"
+
+[[keyboard.bindings]]
+key = "Home"
+chars = "\u001b[H"
+
+# Move to the end of the line
+[[keyboard.bindings]]
+key = "End"
+chars = "\u001b[F"
+
+# Move one word left
+[[keyboard.bindings]]
+key = "Left"
+mods = "Alt"
+chars = "\u001bb"
+
+# Move one word right
+[[keyboard.bindings]]
+key = "Right"
+mods = "Alt"
+chars = "\u001bf"
